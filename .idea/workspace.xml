@@ -1,36 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3de62663-da6b-4deb-89f0-912774969815" name="Default" comment="">
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\library.iml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\proguard-rules.pro" afterPath="" />
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\src\androidTest\java\com\mabeijianxi\circle_of_friends\ApplicationTest.java" afterPath="" />
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\src\main\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\src\main\java\com\mabeijianxi\circle_of_friends\MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\src\main\res\layout\activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\src\main\res\mipmap-hdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\src\main\res\mipmap-mdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\src\main\res\mipmap-xhdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\src\main\res\mipmap-xxhdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\src\main\res\mipmap-xxxhdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\src\main\res\values-w820dp\dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\src\main\res\values\colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\src\main\res\values\dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\src\main\res\values\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\src\main\res\values\styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Circle-of-friends\library\src\test\java\com\mabeijianxi\circle_of_friends\ExampleUnitTest.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" />
+    <list default="true" id="3de62663-da6b-4deb-89f0-912774969815" name="Default" comment="提交配置。。。">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-hdpi/app_network_off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-hdpi/event_comment_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-mdpi/event_comment_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-xhdpi/event_comment_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-xxhdpi/event_comment_nor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/drawable/event_di.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-hdpi/event_praise_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-mdpi/event_praise_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-xhdpi/event_praise_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-xxhdpi/event_praise_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/drawable/home_youpin.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-hdpi/loading_yuanicon_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-mdpi/loading_yuanicon_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-xhdpi/loading_yuanicon_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-xxhdpi/loading_yuanicon_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-hdpi/sale_icon_star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-mdpi/sale_icon_star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-xhdpi/sale_icon_star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-xxhdpi/sale_icon_star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-hdpi/type_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-xhdpi/type_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-hdpi/type_selected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/mipmap-xhdpi/type_selected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/libs/universal-image-loader-1.9.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/bean/BaseDataBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/BaseSelectorActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ChangeNickNameActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ChangePasswordActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ChangeRealNameActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ChangeSExActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ChangeTelActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/CircularImage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/CommodityChoosePayWayListActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/CommodityDetailInforActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/CommodityGoodsCardListActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/CommodityLargeListActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/CommodityListActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/CommodityOrderEvaluteDetailListActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/CommodityOrderListActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/CommoditySettlementActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/CommoditySettlementDetailListActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/CommoditySortActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/utils/CommonUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/Compat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/CustomGridView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/myrecyclerview/DividerItemDecoration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/EaluationActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/adapter/EaluationAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/bean/EaluationBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/adapter/EaluationGvPicAdaper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/bean/EaluationListBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/EntryExpress.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/adapter/EvaluatereplysAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/bean/EvaluatereplysBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ExpressCompanyActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ExpressDealActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ExpressMainListActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ExpressQueryRecordActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ExtremeCardBoundActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/GetExpress.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/GoodsEvaluateActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/GoodsRetrunActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/GuideAct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/HackyViewPager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/IPhotoView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/linearlistview/internal/IcsLinearLayout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/adapter/ImageScaleAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/InviteFriendsActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/JianYeCoinRecordActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/utils/JsonUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/linearlistview/LinearListView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/activity/LookBigPicActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/LookBigPicActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/MaskedImage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/material/MaterialBackgroundDetector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/material/MaterialTextView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/MessageActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/MineActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/MyAcountActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/MyActiveActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/MyCallTelPagerActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/utils/MyColorUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/MyCreditBalanceActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/MyDeleteHouseActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/MyHouseRelationshipActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/MyIdeaReturnActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/MyOrderActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/MySystemActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/MyTelYellowPagerActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/MyTenementChangeBindActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/MyWalletActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/MyWuyeInfoActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/callback/NetWorkCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/NoticeAndMessageActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/NoticeDetailActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/callback/OkRequestCallBack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/OrderDetailActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/PayAllWayActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/PersonalActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/PhotoView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/PhotoViewAttacher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/callback/PullCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/myrecyclerview/PullToLoadView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/PursePsdManagerActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/PursePsdModifyActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/PursePsdResetActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/PurseSelect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/QueryExpress.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/RemoveBandDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/RestBalanceRecordActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/SDK16.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/SMSObserver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/myrecyclerview/ScrollDirection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/ScrollerProxy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/SelectPortraitActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/SelectorActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ServiceOpenDoorActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ServiceRepairActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ServiceRepairConfirmActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ServiceRepairDetailActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ServiceRepairRecordActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ServiceRepairToComment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ServiceShareQRCodeActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ServiceWaterCarriage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/SettingForSendInviteCodeActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ShangchengOrderAdressAct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/utils/SharedPreferencesUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/TuiSongActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/VersionedGestureDetector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/WebViewActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/WebViewHaveShareActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/WriteInfoForGoodsReturns.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity/ZhiFuJieGuoActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity2pic_in.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/activity2pic_out.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/layout/activity_look_big_pic.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/values/attrs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/values/attrs_material_text_view.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/layout/empty_no_page.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/layout/item_comments.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/layout/item_evaluatereply.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/layout/item_grid_image.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/layout/item_photoview.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/layout/loadview.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/okhttp_2_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/okhttputils/okhttputils.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/okio_1_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/pic2activity_in.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/anim/pic2activity_out.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/drawable/progressbar_drawable.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/drawable/ratingbar_progress.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/values-1280x720/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/main/res/values-1920x1080/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/universal_image_loader_1_9_4.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="56b7444c-d26f-490f-99c2-0670d7851997" name="New changelist" comment="New changelist">
+      <change type="DELETED" beforePath="F:\Circle-of-friends\library\library.iml" afterPath="" />
     </list>
     <ignored path="Circle-of-friends.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,7 +192,133 @@
     <favorites_list name="Circle-of-friends" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/activity/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3898551">
+              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EaluationAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/adapter/EaluationAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="143" column="76" selection-start-line="143" selection-start-column="76" selection-end-line="143" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6932#6968#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LookBigPicActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/activity/LookBigPicActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HackyViewPager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/HackyViewPager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item_comments.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/item_comments.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="83.7">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinearListView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/linearlistview/LinearListView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1222#1223#0" expanded="true" />
+                <element signature="e#1246#1247#0" expanded="true" />
+                <element signature="e#1291#1292#0" expanded="true" />
+                <element signature="e#1315#1316#0" expanded="true" />
+                <element signature="e#1363#1364#0" expanded="true" />
+                <element signature="e#1389#1390#0" expanded="true" />
+                <element signature="e#2714#2715#0" expanded="true" />
+                <element signature="e#2736#2737#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attrs.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/res/values/attrs.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IcsLinearLayout.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/linearlistview/internal/IcsLinearLayout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomGridView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/CustomGridView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CircularImage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/CircularImage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,6 +335,10 @@
           </key>
           <value>
             <list>
+              <ExternalProjectPojo>
+                <option name="name" value=":okhttputils" />
+                <option name="path" value="$PROJECT_DIR$/okhttputils" />
+              </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="Circle-of-friends" />
                 <option name="path" value="$PROJECT_DIR$" />
@@ -485,9 +757,19 @@
                 <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare Circle-of-friends:okhttputils:2.0.3" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareCircleOfFriendsOkhttputils203Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:appcompat-v7:23.1.1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComAndroidSupportAppcompatV72311Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:23.1.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72311Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:support-v4:23.1.1" />
@@ -654,6 +936,68 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="zipalignDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assembleDefault" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a bundle containing the library in debug." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bundleDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a bundle containing the library in release." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bundleRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="copyDebugLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="copyReleaseLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeDebugProguardFiles" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeReleaseProguardFiles" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="packageDebugRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="packageDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="packageReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="packageReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformNative_libsWithSyncJniLibsForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformNative_libsWithSyncJniLibsForRelease" />
               </ExternalTaskPojo>
             </list>
           </value>
@@ -1037,9 +1381,19 @@
                 <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare Circle-of-friends:okhttputils:2.0.3" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/demo" />
+                <option name="name" value="prepareCircleOfFriendsOkhttputils203Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:appcompat-v7:23.1.1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/demo" />
                 <option name="name" value="prepareComAndroidSupportAppcompatV72311Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:23.1.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/demo" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72311Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:support-v4:23.1.1" />
@@ -1225,569 +1579,565 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/library">
+        <entry key="$PROJECT_DIR$/okhttputils">
           <value>
             <list>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the Android dependencies of the project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="androidDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all variants of all applications and secondary packages." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="assemble" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all the Test applications." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="assembleAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all Debug builds." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="assembleDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="assembleDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="assembleDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
+                <option name="name" value="assembleDefault" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles all Release builds." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="assembleRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="assembleReleaseUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Assembles a bundle containing the library in debug." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
+                <option name="name" value="bundleDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a bundle containing the library in release." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
+                <option name="name" value="bundleRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="checkDebugManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="checkReleaseManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileDebugAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileDebugAndroidTestAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileDebugAndroidTestNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileDebugAndroidTestRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileDebugAndroidTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileDebugJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileDebugNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileDebugRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileDebugSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileDebugUnitTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileDebugUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileLint" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileReleaseAidl" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileReleaseJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileReleaseNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileReleaseRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileReleaseUnitTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="compileReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':library'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="description" value="Displays the components produced by project ':okhttputils'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="connectedAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks on currently connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="connectedCheck" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs the tests for debug on connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="connectedDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':library'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
+                <option name="name" value="copyDebugLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
+                <option name="name" value="copyReleaseLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':okhttputils'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':library'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="description" value="Displays the insight into a specific dependency in project ':okhttputils'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="deviceAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="deviceCheck" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="generateDebugAndroidTestAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="generateDebugAndroidTestBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="generateDebugAndroidTestResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="generateDebugAndroidTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="generateDebugAndroidTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="generateDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="generateDebugBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="generateDebugResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="generateDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="generateDebugSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="generateReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="generateReleaseBuildConfig" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="generateReleaseResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="generateReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Installs the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
-                <option name="name" value="installDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Installs the android (on device) tests for the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="installDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
-                <option name="name" value="jarDebugClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
-                <option name="name" value="jarReleaseClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="lint" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="lintDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on the Release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="lintRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Runs lint on just the fatal issues in the Release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
-                <option name="name" value="lintVitalRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="mergeDebugAndroidTestAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="mergeDebugAndroidTestJniLibFolders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="mergeDebugAndroidTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="mergeDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="mergeDebugJniLibFolders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
-                <option name="name" value="mergeDebugResources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
+                <option name="name" value="mergeDebugProguardFiles" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="mergeReleaseAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="mergeReleaseJniLibFolders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
-                <option name="name" value="mergeReleaseResources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
+                <option name="name" value="mergeReleaseProguardFiles" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="mockableAndroidJar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':library'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="description" value="Displays the configuration model of project ':okhttputils'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
-                <option name="name" value="packageDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="packageDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
-                <option name="name" value="packageRelease" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
+                <option name="name" value="packageDebugRenderscript" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
+                <option name="name" value="packageDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
+                <option name="name" value="packageReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
+                <option name="name" value="packageReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="preBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="preDebugAndroidTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="preDebugBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="preDebugUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="preReleaseBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:23.1.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72311Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:23.1.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
-                <option name="name" value="prepareComAndroidSupportSupportV42311Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="prepareDebugAndroidTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="prepareDebugDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="prepareDebugUnitTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="prepareReleaseDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="prepareReleaseUnitTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="processDebugAndroidTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="processDebugAndroidTestManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="processDebugAndroidTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="processDebugJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="processDebugManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="processDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="processDebugUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="processReleaseJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="processReleaseManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="processReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="processReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':library'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="description" value="Displays the sub-projects of project ':okhttputils'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':library'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="description" value="Displays the properties of project ':okhttputils'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="signingReport" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prints out all the source sets defined in this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="sourceSets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':library'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="description" value="Displays the tasks runnable from project ':okhttputils'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for all variants." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for the debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="testDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for the release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="testReleaseUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
-                <option name="name" value="transformClassesWithDexForDebug" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
+                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
+                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="transformClassesWithDexForDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
-                <option name="name" value="transformClassesWithDexForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="transformNative_libsWithMergeJniLibsForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="transformNative_libsWithMergeJniLibsForDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="transformNative_libsWithMergeJniLibsForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
+                <option name="name" value="transformNative_libsWithSyncJniLibsForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
+                <option name="name" value="transformNative_libsWithSyncJniLibsForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="transformResourcesWithMergeJavaResForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="transformResourcesWithMergeJavaResForReleaseUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstall all applications." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="uninstallAll" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Uninstalls the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
-                <option name="name" value="uninstallDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the android (on device) tests for the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="uninstallDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Uninstalls the Release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
-                <option name="name" value="uninstallRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/okhttputils" />
                 <option name="name" value="validateDebugSigning" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/library" />
-                <option name="name" value="zipalignDebug" />
               </ExternalTaskPojo>
             </list>
           </value>
@@ -1798,7 +2148,7 @@
       <map>
         <entry key="F:/branches/andriod/bra20151209_1.4.0/workSpace_soon_o2o02" value="11612205118879" />
         <entry key="F:/space/branches/andriod/bra20151209_1.4.0/workSpace_soon_o2o02" value="11612256876911" />
-        <entry key="F:\Circle-of-friends" value="4358652280433" />
+        <entry key="F:\Circle-of-friends" value="5811648792082" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2015,8 +2365,13 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="D:/android-sdk-windows/extras/android/m2repository/com/android/support/appcompat-v7/23.1.1/appcompat-v7-23.1.1.aar" />
+                            <option value="D:/android-sdk-windows/extras/android/m2repository/com/android/support/recyclerview-v7/23.1.1/recyclerview-v7-23.1.1.aar" />
                             <option value="D:/android-sdk-windows/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1.aar" />
                             <option value="D:/android-sdk-windows/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar" />
+                            <option value="$MODULE_DIR$/libs/universal-image-loader-1.9.4.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/demo" />
@@ -2129,6 +2484,115 @@
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/library" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/okhttputils">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.5.0/gradle-1.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.5.0/gradle-1.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/1.5.0/gradle-core-1.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/1.5.0/gradle-core-1.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/1.5.0/transform-api-1.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/1.5.0/transform-api-1.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/1.0-rc5/compilerCommon-1.0-rc5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/24.5.0/lint-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/24.5.0/lint-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.5.0/builder-1.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.5.0/builder-1.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/24.5.0/annotations-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/24.5.0/annotations-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4/4.5/antlr4-4.5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/1.0-rc5/baseLibrary-1.0-rc5-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/1.0-rc5/baseLibrary-1.0-rc5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/24.5.0/lint-checks-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/24.5.0/lint-checks-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/24.5.0/sdk-common-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/24.5.0/sdk-common-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.5.0/builder-model-1.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.5.0/builder-model-1.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/24.5.0/common-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/24.5.0/common-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/24.5.0/sdklib-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/24.5.0/sdklib-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/1.5.0/builder-test-api-1.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/1.5.0/builder-test-api-1.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/24.5.0/ddmlib-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/24.5.0/ddmlib-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/24.5.0/manifest-merger-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/24.5.0/manifest-merger-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/24.5.0/lint-api-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/24.5.0/lint-api-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/24.5.0/layoutlib-api-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/24.5.0/layoutlib-api-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/24.5.0/dvlib-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/24.5.0/dvlib-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/okhttputils" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -2267,6 +2731,49 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/PullToLoadView.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/myrecyclerview/PullCallback.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/myrecyclerview/PullToLoadView.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/res/layout/empty_no_page.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/myrecyclerview/DividerItemDecoration.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/bean/EvaluatereplysBean.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/bean/EaluationListBean.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/bean/EaluationBean.java" />
+        <option value="$PROJECT_DIR$/okhttputils/build.gradle" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/callback/NetWorkCallback.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/callback/OkRequestCallBack.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/utils/CommonUtils.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/utils/SharedPreferencesUtil.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/bean/BaseDataBean.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/utils/JsonUtil.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/MainActivity.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/adapter/EaluationGvPicAdaper.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/res/anim/activity/ServiceShareQRCodeActivity.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/utils/ColorUtils.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/MaterialBackgroundDetector.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/MaterialTextView.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/IPhotoView.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/ScrollerProxy.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/Compat.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/SDK16.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/VersionedGestureDetector.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/PhotoViewAttacher.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/res/layout/item_photoview.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/adapter/ImageScaleAdapter.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/CircularImage.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/MaskedImage.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/CustomGridView.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/linearlistview/LinearListView.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/res/values/attrs.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/res/layout/item_comments.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/adapter/EaluationAdapter.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/adapter/EvaluatereplysAdapter.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/res/layout/item_evaluatereply.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/HackyViewPager.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/res/layout/activity_look_big_pic.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/activity/LookBigPicActivity.java" />
       </list>
     </option>
   </component>
@@ -2274,10 +2781,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="230" />
-    <option name="y" value="59" />
-    <option name="width" value="1541" />
-    <option name="height" value="773" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -2286,7 +2793,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -2302,7 +2809,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -2322,9 +2829,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Circle-of-friends" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Circle-of-friends" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="okhttputils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Circle-of-friends" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Circle-of-friends" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2343,18 +2878,114 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Circle-of-friends" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Circle-of-friends" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="circle_of_friends" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Circle-of-friends" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="circle_of_friends" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.genymobile.genymotion.ide.idea.GdmSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.last.selected" value="demo" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo/libs/universal-image-loader-1.9.4.jar" />
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="160" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="166" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="166" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="959" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="160" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="166" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="166" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="959" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/demo/src/main/res/values" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="values" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Circle-of-friends\demo\src\main\res\mipmap-xhdpi" />
+      <recent name="F:\Circle-of-friends\demo\src\main\res\mipmap-hdpi" />
+      <recent name="F:\Circle-of-friends\demo\src\main\res\layout" />
+      <recent name="F:\Circle-of-friends\demo\src\main\res\drawable" />
+      <recent name="F:\Circle-of-friends\demo\src\main\res\mipmap-xxhdpi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Circle-of-friends\demo\src\main\res\mipmap-xxhdpi" />
+      <recent name="F:\Circle-of-friends\demo\src\main\res\mipmap-xhdpi" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mabeijianxi.circle_of_friends.view" />
+      <recent name="com.mabeijianxi.circle_of_friends.view.photoview" />
+      <recent name="com.mabeijianxi.circle_of_friends.utils" />
+      <recent name="com.mabeijianxi.circle_of_friends.adapter" />
+      <recent name="com.mabeijianxi.circle_of_friends.activity" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.demo">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -2376,6 +3007,26 @@
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2416,6 +3067,11 @@
         <option name="Make" enabled="false" />
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -2519,59 +3175,523 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3de62663-da6b-4deb-89f0-912774969815" name="Default" comment="" />
+      <changelist id="56b7444c-d26f-490f-99c2-0670d7851997" name="New changelist" comment="" />
       <created>1452884913338</created>
       <option name="number" value="Default" />
       <updated>1452884913338</updated>
     </task>
+    <task id="LOCAL-00001" summary="提交配置">
+      <created>1452886076645</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1452886076645</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交配置。。。">
+      <created>1452886387068</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1452886387068</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="230" y="59" width="1541" height="773" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23227549" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14742698" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6168831" sideWeight="0.50236326" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19987147" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18831168" sideWeight="0.49763674" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23714653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交配置" />
+    <MESSAGE value="提交配置。。。" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交配置。。。" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/bean/EaluationListBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17887564">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/bean/EvaluatereplysBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17887564">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3016158">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okhttputils/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70522386">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okhttputils/src/main/java/com/zhy/http/okhttp/callback/Callback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20869565">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/callback/NetWorkCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/callback/OkRequestCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/utils/SharedPreferencesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/bean/BaseDataBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3347826">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/utils/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1826087">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/values-1280x720/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/item_grid_image.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/anim/activity/ServiceShareQRCodeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21304348">
+          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/adapter/EaluationGvPicAdaper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#4438#4439#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/utils/MyColorUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/utils/CommonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/android-sdk-windows/extras/android/m2repository/com/android/support/support-v4/23.1.1/support-v4-23.1.1-sources.jar!/android/support/v4/graphics/ColorUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/material/MaterialBackgroundDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.0869565">
+          <caret line="218" column="18" selection-start-line="218" selection-start-column="18" selection-end-line="218" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/values/attrs_material_text_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/material/MaterialTextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3652174">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/Compat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/IPhotoView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/PhotoView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/PhotoViewAttacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="960" column="17" selection-start-line="960" selection-start-column="17" selection-end-line="960" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/ScrollerProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/SDK16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/photoview/VersionedGestureDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="61" selection-start-line="131" selection-start-column="61" selection-end-line="131" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/drawable/progressbar_drawable.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1521739">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/item_photoview.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.6">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/adapter/ImageScaleAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="75" selection-start-line="77" selection-start-column="75" selection-end-line="77" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4047#4048#0" expanded="true" />
+            <element signature="e#4100#4101#0" expanded="true" />
+            <element signature="e#4863#4864#0" expanded="true" />
+            <element signature="e#4909#4910#0" expanded="true" />
+            <element signature="e#5008#5009#0" expanded="true" />
+            <element signature="e#5051#5052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/MaskedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/CustomGridView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/CircularImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/linearlistview/internal/IcsLinearLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/linearlistview/LinearListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1222#1223#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#2714#2715#0" expanded="true" />
+            <element signature="e#2736#2737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/mipmap-xxhdpi/loading_yuanicon_normal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/mipmap-xhdpi/loading_yuanicon_normal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/mipmap-xhdpi/event_comment_nor.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/drawable/ratingbar_progress.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06315789">
+          <caret line="2" column="93" selection-start-line="2" selection-start-column="79" selection-end-line="2" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/item_comments.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="83.7">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/item_evaluatereply.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25454545">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/adapter/EvaluatereplysAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36086956">
+          <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/adapter/EaluationAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="143" column="76" selection-start-line="143" selection-start-column="76" selection-end-line="143" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6932#6968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/view/HackyViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/res/layout/activity_look_big_pic.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74545455">
+          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/activity/LookBigPicActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/mabeijianxi/circle_of_friends/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3898551">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
           <folding />
         </state>
       </provider>

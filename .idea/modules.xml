@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Circle-of-friends.iml" filepath="$PROJECT_DIR$/Circle-of-friends.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttputils/okhttputils.iml" filepath="$PROJECT_DIR$/okhttputils/okhttputils.iml" />
     </modules>
   </component>
 </project>

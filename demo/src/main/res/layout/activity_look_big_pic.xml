@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.mabeijianxi.circle_of_friends.view.HackyViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:id="@+id/ll_dots"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="#66000000"
+                android:orientation="horizontal"
+                >
+
+                <com.mabeijianxi.circle_of_friends.view.material.MaterialTextView
+                    android:id="@+id/bt_left"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="左旋90度"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp"
+                    />
+
+                <com.mabeijianxi.circle_of_friends.view.material.MaterialTextView
+                    android:id="@+id/bt_right"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="右旋90度"
+                    android:textColor="#ffffff"
+                    android:paddingBottom="8dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#66000000">
+
+            <TextView
+                android:id="@+id/tv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="返回"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_pager"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="1/4"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
