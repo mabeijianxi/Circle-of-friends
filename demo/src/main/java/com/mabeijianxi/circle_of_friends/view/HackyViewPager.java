@@ -31,7 +31,6 @@ public  class HackyViewPager extends ViewPager {
 	    }
 	    return false;
 	}
-
 	@Override
 	public boolean dispatchTouchEvent(MotionEvent ev) {
 		switch (ev.getAction()){
@@ -53,6 +52,10 @@ public  class HackyViewPager extends ViewPager {
 		}
 		return super.dispatchTouchEvent(ev);
 	}
+
+	/**
+	 * ViewPager上面的触摸事件回调监听接口
+	 */
 	public interface HackyViewPagerDispatchListener{
 		void isDown();
 		void isUp();

@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.mabeijianxi.circle_of_friends"
-        minSdkVersion 9
+        minSdkVersion 11
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -25,5 +25,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:recyclerview-v7:23.1.1'
     compile project(':okhttputils')
-    compile files('libs/universal-image-loader-1.9.4.jar')
+    compile files('libs/universal-image-loader-1.9.5.jar')
 }

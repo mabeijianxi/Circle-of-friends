@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
-    <com.henanjianye.soon.communityo2o.huanxin.easemob.chatuidemo.widget.photoview.PhotoView
+    <com.mabeijianxi.circle_of_friends.view.photoview.PhotoView
         android:id="@+id/pv"
         android:layout_height="match_parent"
         android:layout_width="match_parent"/>

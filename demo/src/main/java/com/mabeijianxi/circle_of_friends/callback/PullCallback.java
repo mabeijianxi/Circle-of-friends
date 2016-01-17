@@ -1,7 +1,7 @@
 package com.mabeijianxi.circle_of_friends.callback;
 
 /**
- * @author bian.xd
+ * @author mabeijianxi
  */
 public interface PullCallback {
 

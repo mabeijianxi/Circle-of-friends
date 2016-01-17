@@ -27,6 +27,12 @@ public class CustomGridView extends GridView {
         super(context, attrs, defStyle);
 
     }
+
+    /**
+     * 处理嵌套显示不全的问题
+     * @param widthMeasureSpec
+     * @param heightMeasureSpec
+     */
     @Override
     public void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
 

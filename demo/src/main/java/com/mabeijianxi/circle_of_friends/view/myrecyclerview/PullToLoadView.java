@@ -17,7 +17,8 @@ import com.mabeijianxi.circle_of_friends.callback.PullCallback;
 import com.mabeijianxi.circle_of_friends.utils.CommonUtils;
 
 /**
- * @author bian.xd
+ * @author mabeijianxi
+ * 封装了上拉加载更多下拉刷新等回调和ui
  */
 public class PullToLoadView extends FrameLayout {
 
@@ -116,6 +117,9 @@ public class PullToLoadView extends FrameLayout {
         });
     }
 
+    /**
+     * 加载完成时可以调用
+     */
     public void setComplete() {
         mProgressBar.setVisibility(GONE);
         if (mRecyclerView.getAdapter() != null && mRecyclerView.getAdapter().getItemCount() > 0) {
@@ -133,6 +137,10 @@ public class PullToLoadView extends FrameLayout {
         mRecyclerView.setLayoutManager(manager);
     }
 
+    /**
+     * 可自定义当listview条目为0时显示的提示信息
+     * @param text
+     */
     public void setEmptyText(String text) {
         this.emptyMes = text;
         if (empty_pager != null) {
@@ -140,11 +148,11 @@ public class PullToLoadView extends FrameLayout {
         }
     }
 
+    /**
+     * 调用次方发可手动刷新
+     */
     public void initLoad() {
         if (null != mPullCallback) {
-//            if (mSwipeRefreshLayout != null) {
-//                mSwipeRefreshLayout.setRefreshing(true);
-//            }
             mSwipeRefreshLayout.post(new Runnable() {
                 @Override
                 public void run() {
@@ -155,6 +163,10 @@ public class PullToLoadView extends FrameLayout {
         }
     }
 
+    /**
+     * 调用次方发可手动刷新,但没网除外
+     * @param context
+     */
     public void initNetLoad(Context context) {
         if (null != mPullCallback) {
             if (CommonUtils.isNetworkConnected(context)) {
@@ -173,6 +185,10 @@ public class PullToLoadView extends FrameLayout {
         }
     }
 
+    /**
+     * 自定义SwipeRefreshLayout刷新的颜色
+     * @param colorResIds
+     */
     public void setColorSchemeResources(int... colorResIds) {
         mSwipeRefreshLayout.setColorSchemeResources(colorResIds);
     }
@@ -181,18 +197,34 @@ public class PullToLoadView extends FrameLayout {
         return this.mRecyclerView;
     }
 
+    /**
+     * 设置回调
+     * @param mPullCallback
+     */
     public void setPullCallback(PullCallback mPullCallback) {
         this.mPullCallback = mPullCallback;
     }
 
+    /**
+     * 设置加载更多的容差，比如可以提前5个item加载
+     * @param mLoadMoreOffset
+     */
     public void setLoadMoreOffset(int mLoadMoreOffset) {
         this.mLoadMoreOffset = mLoadMoreOffset;
     }
 
+    /**
+     * 是否开启加载更多功能
+     * @param mIsLoadMoreEnabled
+     */
     public void isLoadMoreEnabled(boolean mIsLoadMoreEnabled) {
         this.mIsLoadMoreEnabled = mIsLoadMoreEnabled;
     }
 
+    /**
+     * 是否开启可刷新功能
+     * @param mIsLoadMoreEnabled
+     */
     public void isRefreshEnabled(boolean mIsLoadMoreEnabled) {
         if (mSwipeRefreshLayout != null) {
             mSwipeRefreshLayout.setEnabled(mIsLoadMoreEnabled);

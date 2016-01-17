@@ -2,7 +2,6 @@ package com.mabeijianxi.circle_of_friends.callback;
 
 /**
  * @author mabeijianxi
- * @项目名称 sport
  * @创建时间 2016-1-13
  * @作用描述 网络请求回调
  * @备注

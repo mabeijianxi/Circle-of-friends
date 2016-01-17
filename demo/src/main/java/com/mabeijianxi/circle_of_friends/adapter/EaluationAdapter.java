@@ -34,8 +34,14 @@ import java.util.List;
  * Created by jian on 2016/1/3.
  */
 public class EaluationAdapter extends RecyclerView.Adapter<EaluationAdapter.EaluationHolder> {
+    /**
+     * 当高分辨率的时候服务器的图片显得太小，这里优化下显示比例
+     */
+    private Float fTimes;
     private Context mContext;
+    private boolean mIsLoadImage = true;
     private ArrayList<EaluationListBean> mEaluationList;
+    private EaluationGvPicAdaper mEaluationGvPicAdaper;
     private ImageLoader mImageLoader = ImageLoader.getInstance();
     private DisplayImageOptions mConfig = new DisplayImageOptions.Builder()
             .showImageForEmptyUri(R.drawable.home_youpin)
@@ -45,10 +51,7 @@ public class EaluationAdapter extends RecyclerView.Adapter<EaluationAdapter.Ealu
             .considerExifParams(true)// 会识别图片的方向信息
             .resetViewBeforeLoading(true)// 重设图片
             .build();
-    //            .displayer(new RoundedBitmapDisplayer(8000)).build();
-    private boolean mIsLoadImage = true;
-    private EaluationGvPicAdaper mEaluationGvPicAdaper;
-    private Float fTimes;
+
 
     public ArrayList<EaluationListBean> getmEaluationList() {
         return mEaluationList;
@@ -66,7 +69,7 @@ public class EaluationAdapter extends RecyclerView.Adapter<EaluationAdapter.Ealu
     public EaluationAdapter(Context context) {
         this.mContext = context;
         mEaluationList = new ArrayList<>();
-//        适配
+//        适配单图放大比例
         String sTimes = mContext.getResources().getString(R.string.times);
         fTimes = Float.valueOf(sTimes);
     }
@@ -120,10 +123,10 @@ public class EaluationAdapter extends RecyclerView.Adapter<EaluationAdapter.Ealu
         List<EaluationListBean.EaluationPicBean> attachments = ealuationListBean.attachments;
         if (ealuationListBean.avatar != null) {
             mImageLoader.displayImage(ealuationListBean.avatar.smallPicUrl, holder.icon, mConfig);
-            setIconClick(holder, ealuationListBean.avatar.smallPicUrl,ealuationListBean.avatar.picUrl);
+            setIconClick(holder, ealuationListBean.avatar.smallPicUrl, ealuationListBean.avatar.picUrl);
         } else {
             holder.icon.setImageResource(R.drawable.home_youpin);
-            setIconClick(holder,"null","null");
+            setIconClick(holder, "null", "null");
         }
         holder.tv_nickname.setText(ealuationListBean.userName);
         holder.tv_text.setText(ealuationListBean.content);
@@ -132,9 +135,10 @@ public class EaluationAdapter extends RecyclerView.Adapter<EaluationAdapter.Ealu
         setUpImage(holder, attachments, position);
         setUpTereplys(holder, ealuationListBean.evaluatereplys);
     }
+
     /**
      * 设置回复内容规则
-     *
+     *这里用的是自定义的LinearLayout，这样比listview消耗要小一些
      * @param holder
      * @param evaluatereplysList
      */
@@ -176,7 +180,13 @@ public class EaluationAdapter extends RecyclerView.Adapter<EaluationAdapter.Ealu
         }
     }
 
-    private void setIconClick(EaluationHolder holder, final String miniPicUrl,final String picUrl) {
+    /**
+     * 设置头像的点击看大图事件，这里为了方便直接把bean类进行了转换传递
+     * @param holder
+     * @param miniPicUrl
+     * @param picUrl
+     */
+    private void setIconClick(EaluationHolder holder, final String miniPicUrl, final String picUrl) {
         holder.icon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -185,13 +195,14 @@ public class EaluationAdapter extends RecyclerView.Adapter<EaluationAdapter.Ealu
                 List<EaluationListBean.EaluationPicBean> attachments = new ArrayList<EaluationListBean.EaluationPicBean>();
                 EaluationListBean.EaluationPicBean ealuationPicBean = new EaluationListBean().new EaluationPicBean();
                 ealuationPicBean.imageUrl = picUrl;
-                ealuationPicBean.smallImageUrl=miniPicUrl;
+                ealuationPicBean.smallImageUrl = miniPicUrl;
                 attachments.add(ealuationPicBean);
                 bundle.putSerializable(LookBigPicActivity.PICDATALIST, (Serializable) attachments);
                 intent.putExtras(bundle);
                 intent.putExtra(LookBigPicActivity.CURRENTITEM, 0);
                 mContext.startActivity(intent);
-                ((MainActivity)mContext). overridePendingTransition(R.anim.activity2pic_in, R.anim.activity2pic_out);
+//                动画处理
+                startActivityAnim();
             }
         });
     }
@@ -219,45 +230,48 @@ public class EaluationAdapter extends RecyclerView.Adapter<EaluationAdapter.Ealu
      * @param holder
      */
     private void setSingleImage(final List<EaluationListBean.EaluationPicBean> attachments, final EaluationHolder holder, final int position) {
+//可更具请求选择是否设置是否对单图快滑处理
 //        if (mIsLoadImage) {
+        mImageLoader.displayImage(attachments.get(0).smallImageUrl, holder.iv_image, mConfig, new ImageLoadingListener() {
+            @Override
+            public void onLoadingStarted(String imageUri, View view) {
+            }
 
-            mImageLoader.displayImage(attachments.get(0).smallImageUrl, holder.iv_image, mConfig, new ImageLoadingListener() {
-                @Override
-                public void onLoadingStarted(String imageUri, View view) {
-                }
+            @Override
+            public void onLoadingFailed(String imageUri, View view, FailReason failReason) {
 
-                @Override
-                public void onLoadingFailed(String imageUri, View view, FailReason failReason) {
+            }
 
-                }
-
-                @Override
-                public void onLoadingComplete(String imageUri, View view, Bitmap loadedImage) {
+            @Override
+            public void onLoadingComplete(String imageUri, View view, Bitmap loadedImage) {
+//                优化显示比例
+                if (fTimes != 1) {
                     int height = loadedImage.getHeight();
                     int width = loadedImage.getWidth();
-                    FrameLayout.LayoutParams params = new FrameLayout.LayoutParams((int)(width*fTimes),(int)( height*fTimes));
+                    FrameLayout.LayoutParams params = new FrameLayout.LayoutParams((int) (width * fTimes), (int) (height * fTimes));
                     holder.iv_image.setLayoutParams(params);
                 }
+            }
 
-                @Override
-                public void onLoadingCancelled(String imageUri, View view) {
+            @Override
+            public void onLoadingCancelled(String imageUri, View view) {
 
-                }
-            });
-            holder.iv_image.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
+            }
+        });
+        holder.iv_image.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 //                            点击查看大图的操作
-                    Intent intent = new Intent(mContext, LookBigPicActivity.class);
-                    Bundle bundle = new Bundle();
-                    bundle.putSerializable(LookBigPicActivity.PICDATALIST, (Serializable) attachments);
-                    intent.putExtras(bundle);
-                    intent.putExtra(LookBigPicActivity.CURRENTITEM, 0);
-                    mContext.startActivity(intent);
-                    ((MainActivity)mContext). overridePendingTransition(R.anim.activity2pic_in, R.anim.activity2pic_out);
+                Intent intent = new Intent(mContext, LookBigPicActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putSerializable(LookBigPicActivity.PICDATALIST, (Serializable) attachments);
+                intent.putExtras(bundle);
+                intent.putExtra(LookBigPicActivity.CURRENTITEM, 0);
+                mContext.startActivity(intent);
+                startActivityAnim();
 
-                }
-            });
+            }
+        });
 //        }
 //        优化快滑时的图片加载
        /* else {
@@ -265,15 +279,14 @@ public class EaluationAdapter extends RecyclerView.Adapter<EaluationAdapter.Ealu
             if (bitmap != null) {
                 holder.iv_image.setImageBitmap(bitmap);
             }
-        }
-//        图片显示处理优化
-        int height = DisplayUtils.dip2px(mContext, 300);
-        if (measuredHeight > height) {
-            float v = measuredHeight * 1.0f / height;
-            int width = (int) (measuredWidth * v);
-            FrameLayout.LayoutParams params = new FrameLayout.LayoutParams(width, height);
-            holder.iv_image.setLayoutParams(params);
         }*/
+    }
+
+    /**
+     * 开始跳转动画
+     */
+    private void startActivityAnim() {
+        ((MainActivity) mContext).overridePendingTransition(R.anim.activity2pic_in, R.anim.activity2pic_out);
     }
 
     static class EaluationHolder extends RecyclerView.ViewHolder {
@@ -281,6 +294,7 @@ public class EaluationAdapter extends RecyclerView.Adapter<EaluationAdapter.Ealu
         public ImageView iv_image;
         public TextView tv_nickname;
         public TextView tv_text;
+        //        可更具情况设置为emoji表情
         public TextView tv_date;
         public RatingBar rb_stars;
         public CustomGridView gv_image;

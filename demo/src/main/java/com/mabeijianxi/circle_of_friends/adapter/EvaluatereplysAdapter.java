@@ -47,11 +47,11 @@ public class EvaluatereplysAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        ViewHolder viewHolder ;
+        ViewHolder viewHolder;
         if (convertView == null) {
-            viewHolder=new ViewHolder();
+            viewHolder = new ViewHolder();
 //           convertView = View.inflate(mContext, R.layout.item_evaluatereply, parent);
-           convertView = LayoutInflater.from(mContext).inflate(R.layout.item_evaluatereply, parent, false);
+            convertView = LayoutInflater.from(mContext).inflate(R.layout.item_evaluatereply, parent, false);
             viewHolder.tv = (TextView) convertView.findViewById(R.id.tv_text);
 
             convertView.setTag(viewHolder);
@@ -60,9 +60,8 @@ public class EvaluatereplysAdapter extends BaseAdapter {
         }
         EvaluatereplysBean evaluatereplysBean = mEvaluatereplysList.get(position);
 
-         SpannableString msp = new SpannableString(evaluatereplysBean.erReplyuser +":"+evaluatereplysBean.erContent);
-        msp.setSpan(new ForegroundColorSpan(0xff6b8747), 0, evaluatereplysBean.erReplyuser.length()+1, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-//        msp.setSpan(new ForegroundColorSpan(Color.parseColor("#8e8e8e")), evaluatereplysBean.erReplyuser.length(), evaluatereplysBean.erReplyuser.length() + evaluatereplysBean.erContent.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        SpannableString msp = new SpannableString(evaluatereplysBean.erReplyuser + ":" + evaluatereplysBean.erContent);
+        msp.setSpan(new ForegroundColorSpan(0xff6b8747), 0, evaluatereplysBean.erReplyuser.length() + 1, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         viewHolder.tv.setText(msp);
         return convertView;
     }

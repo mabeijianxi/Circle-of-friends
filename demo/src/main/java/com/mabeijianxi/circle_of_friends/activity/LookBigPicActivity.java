@@ -134,9 +134,10 @@ public class LookBigPicActivity extends Activity implements View.OnClickListener
         switch (v.getId()) {
             case R.id.tv_back:
                 finish();
-                overridePendingTransition(R.anim.pic2activity_in,R.anim.pic2activity_out);
+                startActivityAnim();
 
                 break;
+//            向左旋转
             case R.id.bt_left:
                 View primaryView = imageScaleAdapter.getPrimaryItem();
                 if (primaryView != null) {
@@ -146,6 +147,7 @@ public class LookBigPicActivity extends Activity implements View.OnClickListener
                     primaryView.requestLayout();
                 }
                 break;
+//            向右旋转
             case R.id.bt_right:
                 View primaryView1 = imageScaleAdapter.getPrimaryItem();
                 if (primaryView1 != null) {
@@ -157,6 +159,9 @@ public class LookBigPicActivity extends Activity implements View.OnClickListener
         }
     }
 
+    /**
+     * 下面几个回调主要是优化体验的，模范的QQ空间的看图模式
+     */
     @Override
     public void isDown() {
         ll_bottom.setVisibility(View.GONE);
@@ -175,6 +180,13 @@ public class LookBigPicActivity extends Activity implements View.OnClickListener
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+        startActivityAnim();
+    }
+
+    /**
+     * 开始activity的动画
+     */
+    private void startActivityAnim() {
         overridePendingTransition(R.anim.pic2activity_in, R.anim.pic2activity_out);
     }
 }

@@ -17,11 +17,11 @@ import com.mabeijianxi.circle_of_friends.bean.EaluationListBean;
 import com.mabeijianxi.circle_of_friends.callback.NetWorkCallback;
 import com.mabeijianxi.circle_of_friends.callback.OkRequestCallBack;
 import com.mabeijianxi.circle_of_friends.callback.PullCallback;
-import com.mabeijianxi.circle_of_friends.view.myrecyclerview.DividerItemDecoration;
-import com.mabeijianxi.circle_of_friends.view.myrecyclerview.PullToLoadView;
 import com.mabeijianxi.circle_of_friends.utils.CommonUtils;
 import com.mabeijianxi.circle_of_friends.utils.JsonUtil;
 import com.mabeijianxi.circle_of_friends.utils.SharedPreferencesUtil;
+import com.mabeijianxi.circle_of_friends.view.myrecyclerview.DividerItemDecoration;
+import com.mabeijianxi.circle_of_friends.view.myrecyclerview.PullToLoadView;
 import com.zhy.http.okhttp.OkHttpUtils;
 
 import java.util.ArrayList;
@@ -31,8 +31,10 @@ import java.util.HashMap;
  * Created by mabeijianxi on 2016/1/15.
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, NetWorkCallback {
-
-    private static final String URL = "";
+    /**
+     * 本接口不一定长期有效，如果不能正常请求的话可以自定义实现数据
+     */
+    private static final String URL = "http://123.57.162.168:8081/mall/app/goods/evaluation/list.json";
     private PullToLoadView mPullToLoadView;
     private ImageView iv_default;
     private RecyclerView mRecyclerView;
@@ -41,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     /**
      * 得到的json串
      */
-    private String mdataString;
+    private String mDataString;
     /**
      * 是否是刷新
      */
@@ -89,6 +91,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      */
     private void parseLocal() {
 
+        mDataString = SharedPreferencesUtil.getStringData(this,
+                URL + pageNo  + getId(), null);
+        if (!TextUtils.isEmpty(mDataString)) {// 解析数据
+            parseData(mDataString);
+        }
     }
 
     /**
@@ -104,10 +111,36 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     /**
-     * 添加RecyclerView的滑动事件监听
+     * 添加RecyclerView的滑动事件监听，主要是ListView的优化（快滑处理）
      */
     private void addScrollListener() {
+        mRecyclerView.addOnScrollListener(
+                new RecyclerView.OnScrollListener() {
+                    @Override
+                    public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+                        super.onScrollStateChanged(recyclerView, newState);
+                        EaluationAdapter adapter = (EaluationAdapter) recyclerView.getAdapter();
+                        if (adapter != null) {
+                            switch (newState) {
+//                                拖拽的时候
+                                case RecyclerView.SCROLL_STATE_DRAGGING:
+                                    adapter.setLoadImage(false);
+//                                    adapter.notifyDataSetChanged();
+                                    break;
+//                                静止的时候
+                                case RecyclerView.SCROLL_STATE_IDLE:
+                                    adapter.setLoadImage(true);
+                                    adapter.notifyDataSetChanged();
+                                    break;
+//                                惯性快滑
+                                case RecyclerView.SCROLL_STATE_SETTLING:
+                                    adapter.setLoadImage(false);
+                                    break;
 
+                            }
+                        }
+                    }
+                });
     }
 
     /**
@@ -119,6 +152,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         return new PullCallback() {
             @Override
             public void onLoadMore() {
+//                这里其实我写的不严谨，不过这不是重点
                 if (20 == mPageCount) {
                     loadData(++pageNo);
                 } else {
@@ -158,6 +192,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mRecyclerView = mPullToLoadView.getRecyclerView();
         LinearLayoutManager manager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         mRecyclerView.setLayoutManager(manager);
+//        添加分割线
         mRecyclerView.addItemDecoration(new DividerItemDecoration(
                 this, DividerItemDecoration.VERTICAL_LIST));
 
@@ -165,8 +200,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
+    /**
+     * 准备网络加载
+     * @param pageNo
+     */
     private void loadData(int pageNo) {
         isLoading = true;
+//        当有网络的时候
         if (CommonUtils.isNetworkConnected(this)) {
             mPullToLoadView.setVisibility(View.VISIBLE);
             iv_default.setVisibility(View.GONE);
@@ -175,7 +215,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             } else {
                 Toast.makeText(this,"数据错误",Toast.LENGTH_SHORT);
             }
-        } else if (!CommonUtils.isNetworkConnected(this) && TextUtils.isEmpty(mdataString)) {
+        } else if (!CommonUtils.isNetworkConnected(this) && TextUtils.isEmpty(mDataString)) {
             //没网且没有缓存数据
             mPullToLoadView.setVisibility(View.GONE);
             iv_default.setVisibility(View.VISIBLE);
@@ -196,8 +236,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     /**
-     * 发起网络请求，这里用封装好的okhttp
-     *
+     * 发起网络请求，这里用hongyang封装好的okhttp,比较要用，okhttp的优缺点可以自己查询
+     *这里必须带入请求的字段是goodsId，页数是为了分页需要
      * @param pageNo
      */
     private void requestData(int pageNo) {
@@ -205,7 +245,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         HashMap<String, String> hashMap = new HashMap<>();
         hashMap.put("goodsId", String.valueOf(getId()));
         hashMap.put("pageNo", String.valueOf(pageNo));
-        OkHttpUtils.post().params(hashMap).url("").build().execute(okRequestCallBack);
+        OkHttpUtils.post().params(hashMap).url(URL).build().execute(okRequestCallBack);
     }
 
 
@@ -216,7 +256,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      */
     public int getId() {
 
-        return 0;
+        return 98573;
     }
 
     @Override
@@ -246,9 +286,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onSuccess(String responseInfo) {
         mHasLoadedOnce = true;
         isLoading=false;
+//        缓存处理
             SharedPreferencesUtil.saveStringData(this,
                     URL + pageNo + getId(), responseInfo);
-            mdataString =responseInfo;
+            mDataString =responseInfo;
             parseData(responseInfo);
 
         if (mPullToLoadView != null) {
@@ -258,7 +299,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onFailure(Exception error, String msg) {
-
+        isLoading=false;
+        parseLocal();
+        if (mPullToLoadView != null) {
+            mPullToLoadView.setComplete();
+        }
+        CommonUtils.errorNetMes(this);
     }
     /**
      * 数据解析
@@ -280,6 +326,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     mAdapter = new EaluationAdapter(this);
                     mAdapter.addEaluationDataAll(mEvaluataions);
                     mRecyclerView.setAdapter(mAdapter);
+                    mIsRefresh = false;
                 } else {
                     if (mIsRefresh) {
                         mAdapter.clearAdapter();

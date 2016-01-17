@@ -2,16 +2,15 @@ package com.mabeijianxi.circle_of_friends.utils;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.os.Environment;
 import android.util.DisplayMetrics;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 /**
- * Created by mabeijianxi on 2011/1/13.
+ * Created by mabeijianxi on 2016/1/13.
  */
 public class CommonUtils {
 //    public static BuildConfig.LOG_DEBUG=false;
@@ -103,20 +102,12 @@ public class CommonUtils {
         return (int) (pxValue / scale + 0.5f);
     }
 
-
-    public static String getRootPath() {
-        return Environment.getExternalStorageDirectory().toString();
-    }
-
-    public static int getVerCode(Context context) {
-        int versionCode = 0;
-        try {
-            versionCode = context.getPackageManager().getPackageInfo(
-                    "com.henanjianye.soon.communityo2o", 0).versionCode;
-        } catch (PackageManager.NameNotFoundException e) {
-            //			MyLog.e("msg", e.getMessage());
+    public static void errorNetMes(Context context){
+        if(isNetworkConnected(context)){
+            Toast.makeText(context, "服务器链接错误", Toast.LENGTH_SHORT).show();
+        }else{
+            Toast.makeText(context,"网络链接错误",Toast.LENGTH_SHORT).show();
         }
-        return versionCode;
-    }
 
+    }
 }

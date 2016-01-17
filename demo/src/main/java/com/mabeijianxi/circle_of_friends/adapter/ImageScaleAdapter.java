@@ -11,6 +11,7 @@ import android.widget.ProgressBar;
 import com.mabeijianxi.circle_of_friends.R;
 import com.mabeijianxi.circle_of_friends.activity.LookBigPicActivity;
 import com.mabeijianxi.circle_of_friends.bean.EaluationListBean;
+import com.mabeijianxi.circle_of_friends.utils.ImageUtils;
 import com.mabeijianxi.circle_of_friends.view.photoview.PhotoView;
 import com.mabeijianxi.circle_of_friends.view.photoview.PhotoViewAttacher;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
@@ -31,13 +32,10 @@ public class ImageScaleAdapter extends PagerAdapter implements PhotoViewAttacher
     private DisplayImageOptions pager_options = new DisplayImageOptions.Builder()
             .showImageForEmptyUri(R.drawable.home_youpin)
             .showImageOnFail(R.drawable.home_youpin)
-//            .showImageOnLoading(R.drawable.home_youpin)
-//            .resetViewBeforeLoading(true)//在显示图片之前先清空ImageView上的图片
             .cacheOnDisk(true)
             .imageScaleType(ImageScaleType.EXACTLY)//会对图片进一步的缩放
             .bitmapConfig(Bitmap.Config.RGB_565)//此种模消耗的内存会很小,2个byte存储一个像素
             .considerExifParams(true)
-//            .displayer(new FadeInBitmapDisplayer(300))
             .build();
     private PhotoView imageView;
     private View mCurrentView;
@@ -73,34 +71,15 @@ public class ImageScaleAdapter extends PagerAdapter implements PhotoViewAttacher
 
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
+
         View inflate = LayoutInflater.from(mContext).inflate(R.layout.item_photoview, container, false);
         imageView = (PhotoView) inflate.findViewById(R.id.pv);
-        final ProgressBar pb = (ProgressBar) inflate.findViewById(R.id.pb);
         imageView.setOnPhotoTapListener(this);
+        final ProgressBar pb = (ProgressBar) inflate.findViewById(R.id.pb);
         final EaluationListBean.EaluationPicBean ealuationPicBean = mPicData.get(position);
+
         if (ealuationPicBean != null && ealuationPicBean.imageUrl != null && !"null".equals(ealuationPicBean.imageUrl)) {
-            mImageLoader.displayImage(ealuationPicBean.imageUrl, imageView, pager_options, new ImageLoadingListener() {
-                @Override
-                public void onLoadingStarted(String imageUri, View view) {
-                    startLoad( pb);
-                    showExcessPic(ealuationPicBean, imageView);
-                }
-
-                @Override
-                public void onLoadingFailed(String imageUri, View view, FailReason failReason) {
-                    overLoad( pb);
-                }
-
-                @Override
-                public void onLoadingComplete(String imageUri, View view, Bitmap loadedImage) {
-                    overLoad( pb);
-                }
-
-                @Override
-                public void onLoadingCancelled(String imageUri, View view) {
-                    overLoad( pb);
-                }
-            });
+            setupNetImage(pb, ealuationPicBean);
         } else {
             imageView.setImageResource(R.drawable.home_youpin);
         }
@@ -110,13 +89,43 @@ public class ImageScaleAdapter extends PagerAdapter implements PhotoViewAttacher
     }
 
     /**
+     * 设置网络图片加载规则
+     * @param pb
+     * @param ealuationPicBean
+     */
+    private void setupNetImage(final ProgressBar pb, final EaluationListBean.EaluationPicBean ealuationPicBean) {
+        mImageLoader.displayImage(ealuationPicBean.imageUrl, imageView, pager_options, new ImageLoadingListener() {
+            @Override
+            public void onLoadingStarted(String imageUri, View view) {
+                startLoad(pb);
+                showExcessPic(ealuationPicBean, imageView);
+            }
+
+            @Override
+            public void onLoadingFailed(String imageUri, View view, FailReason failReason) {
+                overLoad( pb);
+            }
+
+            @Override
+            public void onLoadingComplete(String imageUri, View view, Bitmap loadedImage) {
+                overLoad( pb);
+            }
+
+            @Override
+            public void onLoadingCancelled(String imageUri, View view) {
+                overLoad( pb);
+            }
+        });
+    }
+
+    /**
      * 展示过度图片
      *
      * @param ealuationPicBean
      * @param imageView
      */
     private void showExcessPic(EaluationListBean.EaluationPicBean ealuationPicBean, PhotoView imageView) {
-        Bitmap bitmap = mImageLoader.getMemoryCache().get(ealuationPicBean.smallImageUrl);
+        Bitmap bitmap = ImageUtils.getBitmapFromCache(ealuationPicBean.smallImageUrl, mImageLoader);
         if (bitmap != null) {
             imageView.setImageBitmap(bitmap);
         } else {
