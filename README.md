@@ -1,9 +1,9 @@
 # Circle-of-friends
 ###Similar to the micro channel circle of friends QQ space, but also can be used to make a list of product evaluation or other graphic display.
-
+---
 ####先看下demo效果，其实就和朋友圈差不多，对其进行了一定程度的优化，我个人对是对性能比较重视的。我在代码里面有特别详细的注释，适合有需要的学习者，模拟器上可能有色斑与卡顿嘿嘿...
 
-![demo](http://7xq6db.com1.z0.glb.clouddn.com/demo.gif)
+![demo](http://7xq6db.com1.z0.glb.clouddn.com/demogif.gif)
 
 
 -----
