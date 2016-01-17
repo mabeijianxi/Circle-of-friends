@@ -13,6 +13,7 @@
 * listview的优化处理
 * 用ImageLoader的一些特殊方式来优化图片加载
 * listview的高度封装操作（刷新、加载更多、ui操作等）
+
 ##主用到的一些依赖有：
 * [Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader)
 * [PhotoView](https://github.com/chrisbanes/PhotoView)
