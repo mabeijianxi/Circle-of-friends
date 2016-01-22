@@ -31,7 +31,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by jian on 2016/1/3.
+ * Created by mabeijianxi on 2016/1/3.
  */
 public class EaluationAdapter extends RecyclerView.Adapter<EaluationAdapter.EaluationHolder> {
     /**
