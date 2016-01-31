@@ -8,7 +8,7 @@
 
 -----
 ##本demo主要想分享的技术要点：
-
+* Activity动画的灵活应用
 * listview各种嵌套处理
 * listview的优化处理
 * 用ImageLoader的一些特殊方式来优化图片加载
