@@ -24,7 +24,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * Created by jian on 2016/1/3.
+ * Created by mabeijianxi on 2016/1/3.
  */
 public class EaluationGvPicAdaper extends BaseAdapter {
     private Context mContext;
@@ -100,15 +100,52 @@ public class EaluationGvPicAdaper extends BaseAdapter {
 //                点击查看大图
                 Intent intent = new Intent(mContext, LookBigPicActivity.class);
                 Bundle bundle = new Bundle();
+
+                setupCoords(holder.iv_image,mAttachmentsList,position);
+
                 bundle.putSerializable(LookBigPicActivity.PICDATALIST, (Serializable) mAttachmentsList);
                 intent.putExtras(bundle);
                 intent.putExtra(LookBigPicActivity.CURRENTITEM, position);
                 mContext.startActivity(intent);
-                ((MainActivity) mContext).overridePendingTransition(R.anim.activity2pic_in, R.anim.activity2pic_out);
+                ((MainActivity) mContext).overridePendingTransition(0, 0);
 
             }
         });
         return convertView;
+    }
+
+    /**
+     * 计算每个item的坐标
+     * @param iv_image
+     * @param mAttachmentsList
+     * @param position
+     */
+    private void setupCoords(ImageView iv_image, List<EaluationListBean.EaluationPicBean> mAttachmentsList, int position) {
+//        x方向的第几个
+        int xn=position%3+1;
+//        y方向的第几个
+        int yn=position/3+1;
+//        x方向的总间距
+        int h=(xn-1)*CommonUtils.dip2px(mContext,4);
+//        y方向的总间距
+        int v=h;
+//        图片宽高
+        int height = iv_image.getHeight();
+        int width = iv_image.getWidth();
+//        获取当前点击图片在屏幕上的坐标
+        int[] points=new int[2];
+        iv_image.getLocationInWindow(points);
+//        获取第一张图片的坐标
+        int x0=points[0]-(width+h)*(xn-1) ;
+        int y0=points[1]-(height+v)*(yn-1);
+//        给所有图片添加坐标信息
+        for(int i=0;i<mAttachmentsList.size();i++){
+            EaluationListBean.EaluationPicBean ealuationPicBean = mAttachmentsList.get(i);
+            ealuationPicBean.width=width;
+            ealuationPicBean.height=height;
+            ealuationPicBean.x=x0+(i%3)*(width+h);
+            ealuationPicBean.y=y0+(i/3)*(height+v)-CommonUtils.getStatusBarHeight(iv_image);
+        }
     }
 
     /**

@@ -2,9 +2,11 @@ package com.mabeijianxi.circle_of_friends.utils;
 
 import android.app.Activity;
 import android.content.Context;
+import android.graphics.Rect;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.util.DisplayMetrics;
+import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -20,6 +22,12 @@ public class CommonUtils {
         con.getWindowManager().getDefaultDisplay().getMetrics(metric);
         int width = metric.widthPixels;     // 屏幕宽度（像素）
         return width;
+    }
+    public static int getScreenSizeHeight(Activity con) {
+        DisplayMetrics metric = new DisplayMetrics();
+        con.getWindowManager().getDefaultDisplay().getMetrics(metric);
+        int heightPixels = metric.heightPixels;     // 屏幕宽度（像素）
+        return heightPixels;
     }
     // 获取ApiKey
 
@@ -109,5 +117,17 @@ public class CommonUtils {
             Toast.makeText(context,"网络链接错误",Toast.LENGTH_SHORT).show();
         }
 
+    }
+    /** 获取状态栏高度
+     * @param v
+     * @return
+     */
+    public static int getStatusBarHeight(View v) {
+        if (v == null) {
+            return 0;
+        }
+        Rect frame = new Rect();
+        v.getWindowVisibleDisplayFrame(frame);
+        return frame.top;
     }
 }

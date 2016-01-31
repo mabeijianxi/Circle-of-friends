@@ -23,7 +23,7 @@ import com.nostra13.universalimageloader.core.listener.ImageLoadingListener;
 import java.util.List;
 
 /**
- * Created by jian on 2015/1/5.
+ * Created by mabeijianxi on 2015/1/5.
  */
 public class ImageScaleAdapter extends PagerAdapter implements PhotoViewAttacher.OnPhotoTapListener {
     private List<EaluationListBean.EaluationPicBean> mPicData;
@@ -167,7 +167,6 @@ public class ImageScaleAdapter extends PagerAdapter implements PhotoViewAttacher
      */
     @Override
     public void onPhotoTap(View view, float x, float y) {
-        ((LookBigPicActivity) mContext).finish();
-        ((LookBigPicActivity) mContext).overridePendingTransition(R.anim.pic2activity_in, R.anim.pic2activity_out);
+        ((LookBigPicActivity) mContext).startActivityAnim();
     }
 }

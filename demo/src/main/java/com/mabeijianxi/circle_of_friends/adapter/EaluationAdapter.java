@@ -18,6 +18,7 @@ import com.mabeijianxi.circle_of_friends.activity.LookBigPicActivity;
 import com.mabeijianxi.circle_of_friends.activity.MainActivity;
 import com.mabeijianxi.circle_of_friends.bean.EaluationListBean;
 import com.mabeijianxi.circle_of_friends.bean.EvaluatereplysBean;
+import com.mabeijianxi.circle_of_friends.utils.CommonUtils;
 import com.mabeijianxi.circle_of_friends.view.CircularImage;
 import com.mabeijianxi.circle_of_friends.view.CustomGridView;
 import com.mabeijianxi.circle_of_friends.view.linearlistview.LinearListView;
@@ -186,7 +187,7 @@ public class EaluationAdapter extends RecyclerView.Adapter<EaluationAdapter.Ealu
      * @param miniPicUrl
      * @param picUrl
      */
-    private void setIconClick(EaluationHolder holder, final String miniPicUrl, final String picUrl) {
+    private void setIconClick(final EaluationHolder holder, final String miniPicUrl, final String picUrl) {
         holder.icon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -194,9 +195,19 @@ public class EaluationAdapter extends RecyclerView.Adapter<EaluationAdapter.Ealu
                 Bundle bundle = new Bundle();
                 List<EaluationListBean.EaluationPicBean> attachments = new ArrayList<EaluationListBean.EaluationPicBean>();
                 EaluationListBean.EaluationPicBean ealuationPicBean = new EaluationListBean().new EaluationPicBean();
+
+                int height = holder.icon.getHeight();
+                int width = holder.icon.getWidth();
+                int[] points=new int[2];
+                holder.icon.getLocationInWindow(points);
+                ealuationPicBean.height=height;
+                ealuationPicBean.width=width;
+                ealuationPicBean.x=points[0];
+                ealuationPicBean.y=points[1]- CommonUtils.getStatusBarHeight(holder.icon);
                 ealuationPicBean.imageUrl = picUrl;
                 ealuationPicBean.smallImageUrl = miniPicUrl;
                 attachments.add(ealuationPicBean);
+
                 bundle.putSerializable(LookBigPicActivity.PICDATALIST, (Serializable) attachments);
                 intent.putExtras(bundle);
                 intent.putExtra(LookBigPicActivity.CURRENTITEM, 0);
@@ -230,6 +241,7 @@ public class EaluationAdapter extends RecyclerView.Adapter<EaluationAdapter.Ealu
      * @param holder
      */
     private void setSingleImage(final List<EaluationListBean.EaluationPicBean> attachments, final EaluationHolder holder, final int position) {
+
 //可更具请求选择是否设置是否对单图快滑处理
 //        if (mIsLoadImage) {
         mImageLoader.displayImage(attachments.get(0).smallImageUrl, holder.iv_image, mConfig, new ImageLoadingListener() {
@@ -264,6 +276,14 @@ public class EaluationAdapter extends RecyclerView.Adapter<EaluationAdapter.Ealu
 //                            点击查看大图的操作
                 Intent intent = new Intent(mContext, LookBigPicActivity.class);
                 Bundle bundle = new Bundle();
+                int height = holder.iv_image.getHeight();
+                int width = holder.iv_image.getWidth();
+                int[] points=new int[2];
+                holder.iv_image.getLocationInWindow(points);
+                attachments.get(0).height=height;
+                attachments.get(0).width=width;
+                attachments.get(0).x=points[0];
+                attachments.get(0).y=points[1]-CommonUtils.getStatusBarHeight(holder.iv_image);
                 bundle.putSerializable(LookBigPicActivity.PICDATALIST, (Serializable) attachments);
                 intent.putExtras(bundle);
                 intent.putExtra(LookBigPicActivity.CURRENTITEM, 0);
@@ -286,7 +306,7 @@ public class EaluationAdapter extends RecyclerView.Adapter<EaluationAdapter.Ealu
      * 开始跳转动画
      */
     private void startActivityAnim() {
-        ((MainActivity) mContext).overridePendingTransition(R.anim.activity2pic_in, R.anim.activity2pic_out);
+        ((MainActivity) mContext).overridePendingTransition(0, 0);
     }
 
     static class EaluationHolder extends RecyclerView.ViewHolder {
@@ -312,6 +332,7 @@ public class EaluationAdapter extends RecyclerView.Adapter<EaluationAdapter.Ealu
             gv_image = (CustomGridView) itemView.findViewById(R.id.gv_image);
             lv_comments_details = (LinearListView) itemView.findViewById(R.id.lv_comments_details);
             fl_image = (FrameLayout) itemView.findViewById(R.id.fl_image);
+
         }
     }
 

@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/ll_root"
     android:background="#000000">
 
     <RelativeLayout
@@ -18,6 +19,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:orientation="vertical"
+            android:id="@+id/ll_bottom_all"
+            android:visibility="invisible"
             >
 
             <LinearLayout
@@ -64,6 +67,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="48dp"
+            android:id="@+id/rl_title"
+            android:visibility="invisible"
             android:background="#66000000">
 
             <TextView

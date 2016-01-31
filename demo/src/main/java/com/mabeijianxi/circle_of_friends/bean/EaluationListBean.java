@@ -34,6 +34,10 @@ public class EaluationListBean implements Serializable {
      * 评论的图片信息
      */
     public class EaluationPicBean implements Serializable {
+        public int height;
+        public int width;
+        public int x;
+        public int y;
         public int attachmentId;
         public String imageId;
         //        原图

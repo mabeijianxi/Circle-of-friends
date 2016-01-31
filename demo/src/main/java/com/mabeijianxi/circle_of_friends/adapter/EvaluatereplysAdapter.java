@@ -16,7 +16,7 @@ import com.mabeijianxi.circle_of_friends.bean.EvaluatereplysBean;
 import java.util.List;
 
 /**
- * Created by jian on 2016/1/6.
+ * Created by mabeijianxi on 2016/1/6.
  */
 public class EvaluatereplysAdapter extends BaseAdapter {
     private final Context mContext;
