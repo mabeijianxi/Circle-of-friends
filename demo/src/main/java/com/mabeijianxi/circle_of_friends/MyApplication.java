@@ -22,7 +22,7 @@ public class MyApplication extends Application{
         config.threadPriority(Thread.NORM_PRIORITY - 2);
 //        config.denyCacheImageMultipleSizesInMemory();//不会在内存中缓存多个大小的图片
         config.diskCacheFileNameGenerator(new Md5FileNameGenerator());//为了保证图片名称唯一
-        config.diskCacheSize(50 * 1024 * 1024); // 50 MiB
+//        config.diskCacheSize(50 * 1024 * 1024); // 50 MiB
         //内存缓存大小默认是：app可用内存的1/8
         config.tasksProcessingOrder(QueueProcessingType.LIFO);
         config.writeDebugLogs(); // Remove for release app

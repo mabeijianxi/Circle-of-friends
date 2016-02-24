@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -101,9 +102,10 @@ public class EaluationGvPicAdaper extends BaseAdapter {
                 Intent intent = new Intent(mContext, LookBigPicActivity.class);
                 Bundle bundle = new Bundle();
 
-                setupCoords(holder.iv_image,mAttachmentsList,position);
-
-                bundle.putSerializable(LookBigPicActivity.PICDATALIST, (Serializable) mAttachmentsList);
+                setupCoords(holder.iv_image, mAttachmentsList, position);
+                Log.e("log", "imageUrl:"+mAttachmentsList.get(position).imageUrl);
+                Log.e("log", "smallImageUrl:"+mAttachmentsList.get(position).smallImageUrl);
+                        bundle.putSerializable(LookBigPicActivity.PICDATALIST, (Serializable) mAttachmentsList);
                 intent.putExtras(bundle);
                 intent.putExtra(LookBigPicActivity.CURRENTITEM, position);
                 mContext.startActivity(intent);

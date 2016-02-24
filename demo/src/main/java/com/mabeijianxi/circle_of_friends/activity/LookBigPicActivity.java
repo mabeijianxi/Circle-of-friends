@@ -304,6 +304,7 @@ public class LookBigPicActivity extends Activity implements View.OnClickListener
                 view.setTranslationY(EvaluateUtil.evaluateInt(animatedFraction, 0, ealuationPicBean.y + ealuationPicBean.height / 2 - imageView.getHeight() / 2));
                 view.setScaleX(EvaluateUtil.evaluateFloat(animatedFraction, 1, vx));
                 view.setScaleY(EvaluateUtil.evaluateFloat(animatedFraction, 1, vy));
+                ll_root.setBackgroundColor((int) EvaluateUtil.evaluateArgb(animatedFraction, 0xff000000, 0x0));
 
                 if (animatedFraction > 0.95) {
                     view.setAlpha(1 - animatedFraction);
@@ -347,7 +348,6 @@ public class LookBigPicActivity extends Activity implements View.OnClickListener
         valueAnimator.addListener(new Animator.AnimatorListener() {
             @Override
             public void onAnimationStart(Animator animation) {
-                ll_root.setBackgroundColor(0x0);
                 rl_title.setVisibility(View.INVISIBLE);
                 ll_bottom_all.setVisibility(View.INVISIBLE);
             }
