@@ -1,5 +1,6 @@
 package com.mabeijianxi.circle_of_friends.adapter;
 
+import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.support.v4.view.PagerAdapter;
@@ -11,7 +12,9 @@ import android.widget.ProgressBar;
 import com.mabeijianxi.circle_of_friends.R;
 import com.mabeijianxi.circle_of_friends.activity.LookBigPicActivity;
 import com.mabeijianxi.circle_of_friends.bean.EaluationListBean;
+import com.mabeijianxi.circle_of_friends.utils.CommonUtils;
 import com.mabeijianxi.circle_of_friends.utils.ImageUtils;
+import com.mabeijianxi.circle_of_friends.view.SendDongTaiDialog;
 import com.mabeijianxi.circle_of_friends.view.photoview.PhotoView;
 import com.mabeijianxi.circle_of_friends.view.photoview.PhotoViewAttacher;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
@@ -33,17 +36,24 @@ public class ImageScaleAdapter extends PagerAdapter implements PhotoViewAttacher
             .showImageForEmptyUri(R.drawable.home_youpin)
             .showImageOnFail(R.drawable.home_youpin)
             .cacheOnDisk(true)
+            .cacheInMemory(true)
             .imageScaleType(ImageScaleType.EXACTLY)//会对图片进一步的缩放
             .bitmapConfig(Bitmap.Config.RGB_565)//此种模消耗的内存会很小,2个byte存储一个像素
             .considerExifParams(true)
             .build();
     private PhotoView imageView;
     private View mCurrentView;
+    private SendDongTaiDialog sendDongTaiDialog;
 
     public ImageScaleAdapter(Context mContext, List<EaluationListBean.EaluationPicBean> data) {
         super();
         this.mPicData = data;
         this.mContext = mContext;
+        if (sendDongTaiDialog == null) {
+            sendDongTaiDialog = new SendDongTaiDialog((Activity) mContext);
+            sendDongTaiDialog.getBtn1().setText("本地保存");
+            sendDongTaiDialog.getBtn2().setVisibility(View.GONE);
+        }
     }
 
     @Override
@@ -80,6 +90,7 @@ public class ImageScaleAdapter extends PagerAdapter implements PhotoViewAttacher
 
         if (ealuationPicBean != null && ealuationPicBean.imageUrl != null && !"null".equals(ealuationPicBean.imageUrl)) {
             setupNetImage(pb, ealuationPicBean);
+            savaPic(ealuationPicBean);
         } else {
             imageView.setImageResource(R.drawable.home_youpin);
         }
@@ -87,7 +98,30 @@ public class ImageScaleAdapter extends PagerAdapter implements PhotoViewAttacher
         container.addView(inflate);//将ImageView加入到ViewPager中
         return inflate;
     }
+    private void savaPic(final EaluationListBean.EaluationPicBean ealuationPicBean) {
 
+        imageView.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                sendDongTaiDialog.setmDialogClickListener(new SendDongTaiDialog.DialogClickListener() {
+                    @Override
+                    public void onClick(int id) {
+                        if (id == R.id.btn_take_photo) {
+                            Bitmap bitmap = ImageUtils.getBitmapFromCache(ealuationPicBean.imageUrl, mImageLoader);
+                            if (bitmap != null) {
+                                ImageUtils.saveImageToGallery(mContext, bitmap);
+                                CommonUtils.soonToast(mContext, "保存成功");
+                            } else {
+                                CommonUtils.soonToast(mContext, "保存失败");
+                            }
+                        }
+                    }
+                });
+                sendDongTaiDialog.show();
+                return true;
+            }
+        });
+    }
     /**
      * 设置网络图片加载规则
      * @param pb

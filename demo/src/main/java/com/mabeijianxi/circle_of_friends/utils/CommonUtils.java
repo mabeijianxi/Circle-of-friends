@@ -15,7 +15,8 @@ import android.widget.Toast;
  * Created by mabeijianxi on 2016/1/13.
  */
 public class CommonUtils {
-//    public static BuildConfig.LOG_DEBUG=false;
+    private static Toast toast;
+    //    public static BuildConfig.LOG_DEBUG=false;
 
     public static int getScreenSizeWidth(Activity con) {
         DisplayMetrics metric = new DisplayMetrics();
@@ -129,5 +130,13 @@ public class CommonUtils {
         Rect frame = new Rect();
         v.getWindowVisibleDisplayFrame(frame);
         return frame.top;
+    }
+    public static void soonToast(Context context, String text) {
+        if (toast == null) {
+            toast = Toast.makeText(context, text, Toast.LENGTH_SHORT);
+        }
+        toast.setText(text);//将文本设置为toast
+        toast.show();
+
     }
 }
