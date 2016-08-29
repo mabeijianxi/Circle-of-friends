@@ -1,25 +1,21 @@
 # Circle-of-friends
 ###Similar to the micro channel circle of friends QQ space, but also can be used to make a list of product evaluation or other graphic display.
 ---
-####先看下demo效果，其实就和朋友圈差不多，对其进行了一定程度的优化，我个人对是对性能比较重视的，并且加上一些好玩儿的动画效果。我在代码里面有特别详细的注释，适合有需要的学习者，模拟器上可能有色斑与卡顿嘿嘿...
+###这里做个说明，由于本人在项目中主要负责社交模块儿，很微信、微博、QQ等主流社交应用都有相似之处，所以会慢慢分模块分享源码，后期可能可能增加更多模块：
+#####1：小视频录制技术与视频以及在保证清晰度的情况下的高度压缩方法，已完成，移步：[https://github.com/mabeijianxi/small-video-record](https://github.com/mabeijianxi/small-video-record)
+#####2：自定义表情库的具体实现细节，和微博几乎一样。这个已经完成，移步：[https://github.com/mabeijianxi/android-expression](https://github.com/mabeijianxi/android-expression)
+#####3：图片查看的实现，包括加载超大不压缩的高清图、微信一样的加载动画、根据手势加载超长图等。
+#####4:发说说功能的实现细节，包括具体的异步上传，回显机制。
+#####5：朋友圈列表的具体实现细节，和微信特别像。
+#####6：利用XMPP实现即时通讯。
+#####7:项目中内存优化的细节分享。
 
-![demo](http://7xq6db.com1.z0.glb.clouddn.com/circle_of_friends1.gif)
-
-
------
-##本demo主要想分享的技术要点：
-* Activity动画的灵活应用
-* listview各种嵌套处理
-* listview的优化处理
-* 用ImageLoader的一些特殊方式来优化图片加载
-* listview的高度封装操作（刷新、加载更多、ui操作等）
-
-***
-
-##主用到的一些依赖有：
-* [Android-Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader)
-* [PhotoView](https://github.com/chrisbanes/PhotoView)
-* [okhttp-utils](https://github.com/hongyangAndroid/okhttp-utils)
+####可以看下应用现在在测试环境下的成果，后期会继续维护升级。
+![image_1](https://github.com/mabeijianxi/Circle-of-friends/blob/master/image/image_1.gif)
+![image_2](https://github.com/mabeijianxi/Circle-of-friends/blob/master/image/image_2.gif)
+![image_3](https://github.com/mabeijianxi/Circle-of-friends/blob/master/image/image_3.gif)
+![image_4](https://github.com/mabeijianxi/Circle-of-friends/blob/master/image/image_4.gif)
+![image_5](https://github.com/mabeijianxi/Circle-of-friends/blob/master/image/image_5.gif)
 
 ----
 
