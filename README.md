@@ -10,13 +10,6 @@
 #####6：利用XMPP实现即时通讯。
 #####7:项目中内存优化的细节分享。
 
-####可以看下应用现在在测试环境下的成果，后期会继续维护升级。
-![image_1](https://github.com/mabeijianxi/Circle-of-friends/blob/master/image/image_1.gif)
-![image_2](https://github.com/mabeijianxi/Circle-of-friends/blob/master/image/image_2.gif)
-![image_3](https://github.com/mabeijianxi/Circle-of-friends/blob/master/image/image_3.gif)
-![image_4](https://github.com/mabeijianxi/Circle-of-friends/blob/master/image/image_4.gif)
-![image_5](https://github.com/mabeijianxi/Circle-of-friends/blob/master/image/image_5.gif)
-
 ----
 
 ##有什么不足的地方欢迎大家提出，也很乐意和大家交流，我的联系邮箱是*mabeijianxi@gmail.com*
